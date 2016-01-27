@@ -9,7 +9,7 @@ class CheckOut
       if @cart[item.to_sym].nil?
         @cart[item.to_sym] = 1
       else
-        @cart[item.to_sym] += 1 
+        @cart[item.to_sym] += 1
       end
     end
   end
